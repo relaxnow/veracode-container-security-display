@@ -3,6 +3,8 @@ Display Veracode Container Security JSON results.
 
 Locally in your browser, nothing is sent over the Internet.
 
+Hosted online at https://relaxnow.github.io/vcsd/ .
+
 ![upload a file](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-1-upload.png?raw=true)
 ![view policy](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-2-policy.png?raw=true)
 ![view vulnerabilities](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-3-vulnerabilities.png?raw=true)
