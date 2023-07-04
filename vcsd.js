@@ -247,6 +247,8 @@ function severitySorter(a, b) {
         'MEDIUM',
         'Low',
         'LOW',
+        'Negligible',
+        'NEGLIGIBLE',
         'Unknown',
         'UNKNOWN',
     ];
