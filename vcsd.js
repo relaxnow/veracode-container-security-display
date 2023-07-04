@@ -1,7 +1,7 @@
 // $.getJSON("test.json", function(data) {
+//     console.log("test.json",data);
 //     processData(data);
 // });
-
 document.getElementById('file').addEventListener('change', onChange);
 
 $('#policyResultsTable').bootstrapTable({
