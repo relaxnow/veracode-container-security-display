@@ -10,11 +10,11 @@ document.getElementById('resultsFile').addEventListener('change', (event) => {
         try {
             data = JSON.parse(input);
         } catch (e) {
-            console.log("File does not parse as JSON. Not Container Security Result.");
+            alert("File does not parse as JSON. Not Container Security Result.");
             return;
         }
         if (!data || typeof data["policy-results"] === "undefined") {
-            console.log("Missing 'policy-results' not a Container Security Result.")
+            alert("Missing 'policy-results' not a Container Security Result.")
             return;
         }
         processResults(data);
