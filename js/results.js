@@ -1,6 +1,6 @@
-// $.getJSON("test.json", function(data) {
-//     processResults(data);
-// });
+$.getJSON("results.json", function(data) {
+    processResults(data);
+});
 
 document.getElementById('resultsFile').addEventListener('change', (event) => {
     let reader = new FileReader();
