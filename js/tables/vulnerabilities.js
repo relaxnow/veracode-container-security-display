@@ -15,7 +15,7 @@ class VulnerabilitiesTable {
                 { field: 'id'               ,title: 'ID'                , visible: false},
                 { field: 'severity'         ,title: 'Severity'          , sortable: true, filterControl: 'select', sorter: severitySorter},
                 { field: 'name'             ,title: 'Source'            , sortable: true, filterControl: "input"},
-                { field: 'vulnerability'    ,title: 'Vulnerability'     , sortable: true, filterControl: "input"},
+                { field: 'vulnerability'    ,title: 'Vulnerability'     , sortable: true, filterControl: "input", onClickRow: null, formatter: vulnerabilityFormatter},
                 { field: 'installed'        ,title: 'Installed version' , sortable: true},
                 { field: 'fixstate'         ,title: 'Fix state'         , sortable: true, filterControl: "select"},
                 { field: 'artifactType'     ,title: 'Type'              , sortable: true, filterControl: "select"},

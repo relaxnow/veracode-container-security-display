@@ -51,6 +51,12 @@ function actionsFormatter(value, row, index) {
     return `<a class="mitigate" href="#" title="Mitigate"><i class="bi-bandaid"></i></a>`;
   }
 
+function vulnerabilityFormatter(value, row, index) {
+    return `<a href="${escapeHtml(VulnerabilitiesTable.details[row["id"]].vulnerability.dataSource)}">
+        ${row['vulnerability']}
+    </a>`;
+}
+
 function downloadObjectAsJson(exportObj, exportName){
     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj, null, 4));
     var downloadAnchorNode = document.createElement('a');
