@@ -5,6 +5,8 @@ Locally in your browser, nothing is sent over the Internet.
 
 Hosted online at https://relaxnow.github.io/vcsd/ .
 
+Run locally with `npm run server`.
+
 ## Screenshots
 
 ![upload a file](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-1-upload.png?raw=true)
@@ -13,3 +15,4 @@ Hosted online at https://relaxnow.github.io/vcsd/ .
 ![click on a row to see details](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-4-vulnerabilities-details.png?raw=true)
 ![view misconfigurations](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-5-misconfigurations.png?raw=true)
 ![view secrets](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-6-secrets.png?raw=true)
+

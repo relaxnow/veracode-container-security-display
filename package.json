@@ -1,0 +1,26 @@
+{
+  "name": "veracode-container-security-display",
+  "version": "3.0.0",
+  "description": "Display Veracode Container Security JSON results.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relaxnow/veracode-container-security-display.git"
+  },
+  "keywords": [
+    "veracode"
+  ],
+  "author": "bbaukema@veracode.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relaxnow/veracode-container-security-display/issues"
+  },
+  "homepage": "https://github.com/relaxnow/veracode-container-security-display#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
