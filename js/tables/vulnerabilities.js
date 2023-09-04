@@ -66,11 +66,17 @@ class VulnerabilitiesTable {
             const mitigation = this.mitigations[id];
             match.Mitigation = mitigation;
             this.details[id] = match;
+
+            let fixState = match.vulnerability.fix.state;
+            if (fixState === "wont-fix") {
+                fixState = "not-fixed";
+            }
+
             return {
                 id              : id,
                 name            : match.artifact.name,
                 installed       : match.artifact.version,
-                fixstate        : match.vulnerability.fix.state,
+                fixstate        : fixState,
                 artifactType    : match.artifact.type,
                 vulnerability   : match.vulnerability.id,
                 severity        : match.vulnerability.severity,
