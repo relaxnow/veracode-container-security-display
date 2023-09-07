@@ -52,9 +52,7 @@ jobs:
     needs: [veracode-sast-scan]
     runs-on: ubuntu-latest
     name: import-issues-to-github
-    permissions:
-      id-token: write
-      contents: read
+    permissions: write-all
     steps:
       - name: get scan results
         uses: actions/download-artifact@v3
