@@ -62,3 +62,4 @@ jobs:
         uses: relaxnow/veracode-flaws-to-issues@testing
         with:
           scan-results-json: 'filtered_results.json'
+          github-token: ${{ secrets.GITHUBTOKEN }}
