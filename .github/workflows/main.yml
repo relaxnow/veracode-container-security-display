@@ -63,3 +63,4 @@ jobs:
         with:
           scan-results-json: 'filtered_results.json'
           github-token: ${{ secrets.GITHUBTOKEN }}
+          debug: true
