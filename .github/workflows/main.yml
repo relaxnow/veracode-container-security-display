@@ -60,7 +60,7 @@ jobs:
         with:
           name: filtered-results
       - name: import flaws as issues
-        uses: relaxnow/veracode-flaws-to-issues@npm-update
+        uses: relaxnow/veracode-flaws-to-issues@feature/get-assistance
         with:
           scan-results-json: 'filtered_results.json'
           debug: true
