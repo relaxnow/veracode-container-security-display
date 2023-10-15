@@ -15,4 +15,3 @@ Run locally with `npm run server`.
 ![click on a row to see details](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-4-vulnerabilities-details.png?raw=true)
 ![view misconfigurations](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-5-misconfigurations.png?raw=true)
 ![view secrets](https://github.com/relaxnow/veracode-container-security-display/blob/main/images/vcsd-6-secrets.png?raw=true)
-
